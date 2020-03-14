@@ -1,0 +1,25 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module",
+    "project": "./tsconfig.json"
+  },
+  "rules": {
+    "no-console": 0,
+    "no-underscore-dangle": 0,
+    "no-unused-vars": ["error", { "argsIgnorePattern": "next" }],
+    "no-use-before-define": ["error", { "variables": false }],
+    "no-multi-str": 0,
+    "no-continue": 0,
+    "no-return-await": 0
+  },
+  "env": {
+    "node": true,
+    "mocha": true,
+    "jest": true
+  },
+  "extends": [
+    "airbnb-typescript/base"
+  ]
+}

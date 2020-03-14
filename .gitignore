@@ -1,0 +1,16 @@
+# Environment variables
+.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Websotrm
+.idea
+
+# Dependency directories
+node_modules
+
+# build
+dist
